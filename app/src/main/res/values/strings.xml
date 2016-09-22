@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GCEDemo</string>
+    <string name="fetch_joke_progress_dialog_msg">Please wait while we are fetching a joke..</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9542071828172374/8404772449</string>
+    <string name="server_error_title">Server error!</string>
+</resources>

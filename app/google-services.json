@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "429219438427",
+    "firebase_url": "https://jokeproviderendpoint-143214.firebaseio.com",
+    "project_id": "jokeproviderendpoint-143214",
+    "storage_bucket": "jokeproviderendpoint-143214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429219438427:android:f622b6b4150a5c30",
+        "android_client_info": {
+          "package_name": "com.rise.gcedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429219438427-0n82u6l1lvqt4551tdpp4u81iqu05tja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWxegayZv2uXkO9yFJExnHGrFWYazfV-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
