@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private int latestJokeId = 0;
     private String latestJoke = "";
     private UiUpdaterHandler mHandler = null;
-    private final String testDeviceId = "7CF819F6E59D16A262A91550287E4936";
-    private final String admobId = "ca-app-pub-9542071828172374~6928039241";
+    private final String testDeviceId = "your-device-id";
+    private final String admobId = "your-admob-id";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
