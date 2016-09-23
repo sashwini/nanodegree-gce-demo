@@ -23,7 +23,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, Integer>, Void, 
     private Context context;
     private Handler mHandler;
     private ProgressDialog progressDialog;
-    private final String rootUrl = "your-gce-endpoint-url";
+    private final String rootUrl = "https://jokeproviderendpoint-143214.appspot.com/_ah/api/";
     public static final int SUCCESS = 0;
     public static final int FAILURE = -1;
 

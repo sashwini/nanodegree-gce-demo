@@ -1,6 +1,7 @@
 package com.rise.gcedemo;
 
 import android.content.Context;
+import android.support.v4.util.Pair;
 import android.test.ActivityInstrumentationTestCase2;
 
 import com.rise.gcedemo.backend.myApi.model.JokeBean;
@@ -48,7 +49,7 @@ public class EndpointsTaskTest extends ActivityInstrumentationTestCase2<MainActi
                         assertNotNull(joke);
                         signal.countDown();
                     }
-                }.execute();
+                }.execute(new Pair<Context, Integer>(getActivity(), 0));
             }
         });
 

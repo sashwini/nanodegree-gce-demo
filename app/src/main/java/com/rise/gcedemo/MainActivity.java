@@ -21,14 +21,22 @@ import org.json.JSONObject;
 
 import java.lang.ref.WeakReference;
 
+/*
+* This single activity manages both free & paid app versions.
+* We are using build variants for different versions.
+* For building free version of app select freeDebug or freeRelease build variant from Build Variants panel.
+* For building paid version of app select paidDebug or paidRelease build variant from Build Variants panel.
+* */
 public class MainActivity extends AppCompatActivity {
 
     private Button btnGetJoke = null;
     private int latestJokeId = 0;
     private String latestJoke = "";
     private UiUpdaterHandler mHandler = null;
-    private final String testDeviceId = "your-device-id";
-    private final String admobId = "your-admob-id";
+    //This can be changed to your own device id obtained from logcat.
+//    private final String testDeviceId = "7CF819F6E59D16A262A91550287E4936";
+    private final String testDeviceId = AdRequest.DEVICE_ID_EMULATOR;
+    private final String admobId = "ca-app-pub-9542071828172374~6928039241";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        //Here we are checking for build variant free or paid & show ads accordingly
         if( !BuildConfig.IS_PAID ) {
             mAdView.setVisibility(View.VISIBLE);
 
